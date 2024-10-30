@@ -1,0 +1,29 @@
+{
+  "name": "sum",
+  "version": "1.0.0",
+  "description": "Sum Project",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DongDong",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.2.0",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.8.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
